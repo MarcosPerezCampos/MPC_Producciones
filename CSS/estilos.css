@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0%;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Flex', sans-serif !important;
     color: #666666;
 }
 
@@ -22,7 +22,7 @@ body{
 .Logo{
     display: flex;
     align-items: center;
-    font-size: 200%;
+    font-size: 200% !important;
 }
 
 .LogoImg{
@@ -59,7 +59,7 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2%;
-    justify-items: center;
+    grid-row-gap: 10%;
     margin: 2%;
     padding: 2%;
 }
@@ -76,13 +76,24 @@ li{
 .DivTextos1{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
       
 }
 
+.DivTextosFinal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 p{
     font-size: 150%;
+}
+
+.parrafoFinal{
+    font-size: 200%;
 }
 
 .p{
@@ -136,3 +147,22 @@ a{
     margin: 0px;
     padding: 10px;
 }
+
+.iconosRedes{
+    height: 70px;
+}
+
+
+.Blanco{
+    color: white;
+    font-size: 150%;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.Galeria{
+    text-decoration: none;
+    font-size: 130%;
+    color: black;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
