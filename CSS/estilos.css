@@ -86,6 +86,17 @@ li{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+}
+
+.DivTextosFinalGaleria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    
 }
 
 p{
@@ -110,7 +121,7 @@ a{
 }
 
 .Imagen2{
-    background-repeat: no-repeat;
+    
     background-image: url(/Imagenes/25_regalos_fotografo_nikon_1.png) ;
     background-size: 100%;
     background-position: 50% 50%;
@@ -166,3 +177,36 @@ a{
     font-family: 'Roboto Flex', sans-serif;
 }
 
+.servicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 5%;
+    justify-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card{
+    width: 60% !important;
+}
+    
+.imagenYo{
+    width: 100%;
+}
+
+.TextosContacto{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 10%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.DivTextosContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
